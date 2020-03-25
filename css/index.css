@@ -8,7 +8,7 @@ body{
 }
 
 header{
-	background-color: #333;
+	background-color: rgb(139, 58, 58);
 	height: 3em;
 	color: #FFF;
 	margin-bottom: 1em;
@@ -71,7 +71,7 @@ th{
 }
 
 label{
-	color: #555;
+	color: rgb(114, 55, 75);
 	display: block;
 	margin-bottom: .2em;
 }
@@ -131,4 +131,8 @@ button[disabled=disabled], button:disabled {
 
 .campo-invalido{
 	border: 1px solid red;
+}
+
+.produto-invalido{
+	background-color:lightcoral;
 }
